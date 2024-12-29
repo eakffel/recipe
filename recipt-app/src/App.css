@@ -1,26 +1,13 @@
 .App {
   text-align: center;
 }
-
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.recipe-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-wrap: wrap;
+  justify-content: center;  /* Centers horizontally */
+  align-items: flex-start;  /* Align items to the top of the container */
+  gap: 16px;  /* Space between cards */
+  padding: 20px;
+  min-height: 100vh;  /* Make sure it takes full height */
+  box-sizing: border-box;
 }
